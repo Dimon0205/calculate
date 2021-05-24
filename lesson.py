@@ -48,4 +48,4 @@ if press_axes_list[2::] == 0:
 else:
     pressresult = Decimal(weight) * Decimal(press_coef[0])
 print('Вес поезда: ' + str(int(weight)), 'Требуемое тормозное нажатие: ' + str(math.ceil(pressresult)))
-print('Требуется ручных тормозов: ' + str(math.ceil(parking_axes)), 'Всего осей: ' + str(axes), end='\n')
+print('Требуется ручных тормозов: ' + str(math.ceil(parking_axes)), 'Всего осей: ' + str(axes))
