@@ -1,3 +1,12 @@
+#Traceback (most recent call last):
+#  File "C:\Users\Dmitry\Desktop\Work\lesson.py", line 63, in <module>
+#    out_result.update({'Вес поезда: ': int(weight),
+#TypeError: unhashable type: 'dict_keys'
+
+
+
+
+
 # required -- required data
 # weight -- train weight
 # axes--  number of axes
